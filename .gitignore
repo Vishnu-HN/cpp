@@ -1,9 +1,25 @@
 .git/
 *.exe
 
-# Already pushed folders - ignore from future pushes
-Advance Sorting/
-Basic Sorting/
-Hashing/
-Recurrsion/
-Sorting/
+# Already pushed files - ignore only these specific files
+Advance Sorting/MergeSort.cpp
+
+Basic Sorting/Bubble.cpp
+Basic Sorting/Insertion.cpp
+Basic Sorting/Selection.cpp
+Basic Sorting/StringSorting.cpp
+
+Hashing/charhash.cpp
+Hashing/Count.cpp
+Hashing/map.cpp
+
+Recurrsion/Exe.cpp
+Recurrsion/Factorial.cpp
+Recurrsion/palindrome.cpp
+Recurrsion/print.cpp
+Recurrsion/print1toN.cpp
+Recurrsion/printname.cpp
+Recurrsion/printNto1.cpp
+Recurrsion/Reversearray.cpp
+Recurrsion/sumofN.cpp
+Recurrsion/Towerofhsnoi.cpp
