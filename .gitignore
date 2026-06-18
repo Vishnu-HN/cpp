@@ -1,0 +1,9 @@
+.git/
+*.exe
+
+# Already pushed folders - ignore from future pushes
+Advance Sorting/
+Basic Sorting/
+Hashing/
+Recurrsion/
+Sorting/
