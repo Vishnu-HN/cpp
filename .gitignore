@@ -1,5 +1,6 @@
 .git/
 *.exe
+!patterns/
 *.vscode
 # Already pushed files - ignore only these specific files
 Advance Sorting/MergeSort.cpp
