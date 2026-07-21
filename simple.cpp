@@ -2,19 +2,15 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < i; j++)
-            cout << " ";
-
-        for (int j = 0; j < n - i; j++)
-            cout << "*";
-
-        cout << endl;
-    }
-
-    
+    int arr[5];
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Enter the elements for an array ";
+   for(int i=0;i<n;i++){
+     cin>>arr[i];
+   }
+   cout<<endl;
+   for(int i=0;i<n;i++){
+     cout<<arr[i];
+   }
     return 0;
 }
