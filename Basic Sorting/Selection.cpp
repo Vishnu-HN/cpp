@@ -17,8 +17,8 @@ void selction_sort(int arr[],int n){
         cout<<arr[i]<<" ";
     }
     
-    
-}
+     
+} 
 int main(){
     int n;
     cout<<"Enter the size of the array : ";
