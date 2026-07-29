@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter the size of array : ";
     cin>>n;
     int arr[n];
-    cout<<"Enter the elements: ";
+    cout<<"Enter the elements:  ";
     for (int i = 0; i < n; i++)
     {
        cin>>arr[i];
@@ -27,8 +27,10 @@ int main(){
     q--;
     }
     Both are same*/
+    
     while(q--){
         int number;
+        cout<<"Enter the number you want to count : ";
         cin>>number;
         cout<<hash[number]<<endl;
     }
